@@ -9,7 +9,7 @@ const Card: React.FC<Props> = ({ personagem }) => {
       <li className="list-none   h-full">
         <div className="flex  justify-center ">
           <span className="text-xl font-bold ">{personagem.name}</span>
-        </div>{" "}
+        </div>
         <img
           src={`${personagem.thumbnail.path}.${personagem.thumbnail.extension}`}
           alt={`Imagem ${personagem.name} `}
