@@ -5,17 +5,21 @@ interface Props {
 
 const Card: React.FC<Props> = ({ personagem }) => {
   return (
-    <div className=" card flex flex-col container w-1/4 m-4  border-4 border-red-700 rounded  align-text-bottom  ">
-      <li className="list-none   h-full">
-        <div className="flex  justify-center ">
-          <span className="text-xl font-bold ">{personagem.name}</span>
-        </div>
-        <img
-          src={`${personagem.thumbnail.path}.${personagem.thumbnail.extension}`}
-          alt={`Imagem ${personagem.name} `}
-        />
-      </li>
-      <div className="m-2">{personagem.description}</div>
+    <div className=" card  max-w-md bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700  m-2">
+      <div className=" flex  justify-center ">
+        <span className="text-xl font-bold ">{personagem.name}</span>{" "}
+      </div>
+
+      <img
+        className="rounded-t-lg "
+        src={`${personagem.thumbnail.path}.${personagem.thumbnail.extension}`}
+        alt={`Imagem ${personagem.name} `}
+      />
+      <div className="p-5   m-2 ">
+        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+          {personagem.description}
+        </p>
+      </div>
     </div>
   );
 };
