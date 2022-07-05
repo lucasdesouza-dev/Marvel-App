@@ -4,6 +4,9 @@ module.exports = {
     "./src/**/*.tsx"],
   theme: {
     extend: {
+      backgroundImage: {
+        marvelbg: "url(/src/img/marvelbg.jpg)"
+      },
       colors: {
         red: {
           700: '#EC1D24',
