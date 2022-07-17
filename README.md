@@ -1,31 +1,34 @@
-# MARVEL APP
+# Marvel-App
 
-Um Spa(Single Page Application) que implementa uma calculadora
+Um Spa(Single Page Application) que implementa uma pagina Web com
+lista de personagens da marvel.
 
 Criado com React e TypeScipt e iniciado com VITE
 
-Github pages: []
+[Home Page](https://the-movie-app-five.vercel.app)
 
-## Característica:
+## Tecnologias
 
-### Designer
-
-- Baseado no design da calculadora da APPLE.
-- com todas as funcionalidades de uma calculadora simples .
+[<img alt="create-react-app" width="26px" src="https://vitejs.dev/logo-with-shadow.png" />](https://vitejs.dev)
+[<img alt="React" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" />](https://pt-br.reactjs.org)
+[<img alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png" />](https://www.typescriptlang.org/docs/handbook/react.html)
+[<img alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />](https://www.w3schools.com/css/)
 
 ## Referências e Inspirações:
 
-[How usando VITE para iniciar projeto](https://vitejs.dev)
+[Api-Marvel](https://developer.marvel.com)
+
+[Usando VITE para iniciar projeto](https://vitejs.dev)
 
 [TypeScript -React](https://www.typescriptlang.org/docs/handbook/react.html)
 
 [CSS ](https://www.w3schools.com/cssref/default.asp)
 
-[YouTube - Tutorial ](https://www.youtube.com/watch?v=T7Cxu10Kln4&t=1592s)
-
 [YouTube - Deploy Vite](https://www.youtube.com/watch?v=yo2bMGnIKE8&list=PLhjxdOe5elEiywuC5kuAvJ8oCHuMTCI45)
 
-[Design Calculadora Apple](https://support.apple.com/pt-br/guide/iphone/iph1ac0b5cc/ios#:~:text=No%20app%20Calculadora%20%2C%20você%20pode,Peça%20à%20Siri%20no%20iPhone.)
+[replaces every http requests with https in public html](https://stackoverflow.com/questions/64014802/javascript-fetch-automatically-changes-http-with-https)
+
+## To Do:
 
 <!-- ## Available Scripts
 
@@ -65,4 +68,4 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
- -->
+-->
